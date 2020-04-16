@@ -4,15 +4,16 @@
 
 _from:_ https://en.wikipedia.org/wiki/Design_Patterns
 
-The *state pattern* is a behavioral software design pattern that allows an object to alter its behavior when its internal 
-state changes.
+The *state pattern* is a behavioral software design pattern that allows an object to alter its
+behavior when its internal state changes.
 
 == The Why
-After watching Chris Okhravi video on the state pattern https://www.youtube.com/watch?v=N12L5D78MAA. I wanted to further
-explore the state pattern within Java. Although I agree with Chris on the Immutability of most objects. I feel that this
-design pattern is one that is allowed to be mutable. In the definition _that allows an object to alter its behavior when its
-internal state changes._ And the UML diagram shows that the context(concrete) class contains a state interface. When state
-changes, therefore, the context class has to mutate.
+After watching Chris Okhravi video on the state pattern https://www.youtube.com/watch?v=N12L5D78MAA.
+I wanted to further explore the state pattern within Java. Although I agree with Chris on the
+Immutability of most objects. I feel that this design pattern is one that is allowed to be mutable.
+In the definition _that allows an object to alter its behavior when its internal state changes._ The
+UML diagram shows that the context(concrete) class contains a state interface. When state changes,
+therefore, the context class has to mutate.
 
 == State-transition table
 |===
